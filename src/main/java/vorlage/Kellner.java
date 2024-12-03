@@ -2,8 +2,8 @@ package vorlage;
 
 public class Kellner extends Person {
     private int mitarbeiterID;
-	public Kellner(String name, int mitarbeiterID) {
-		super();
+	public Kellner(String name, int mitarbeiterID) throws Exception {
+		super(name);
 		this.name = name;
 		this.mitarbeiterID = mitarbeiterID;
 	}
