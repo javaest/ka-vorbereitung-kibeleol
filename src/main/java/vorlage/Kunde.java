@@ -8,5 +8,12 @@ public class Kunde extends Person{
 		this.kundennummer = kundennummer;
 	}
 
+
     // Konstruktor, Getter und Setter
+	public int getKundennummer() {
+		return kundennummer;
+	}
+	public void setKundennummer(int kundennummer) {
+		this.kundennummer = kundennummer;
+	}
 }

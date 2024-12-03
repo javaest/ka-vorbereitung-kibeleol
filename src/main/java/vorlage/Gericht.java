@@ -7,6 +7,11 @@ public class Gericht {
 		this.beschreibung = beschreibung;
 		setPreis(preis);
 	}
+
+	private String name;
+    private String beschreibung;
+    private double preis;
+
 	public String getName() {
 		return name;
 	}
@@ -28,9 +33,4 @@ public class Gericht {
         }
         this.preis = preis;
     }
-	private String name;
-    private String beschreibung;
-    private double preis;
-
-    // Konstruktor, Getter und Setter
 }
